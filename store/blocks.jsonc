@@ -13,7 +13,7 @@
   },
 
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": ["my-account", "rastreio-my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
