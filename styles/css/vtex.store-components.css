@@ -509,7 +509,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .searchBarContainer {
         padding-top: 0 !important;
     }
