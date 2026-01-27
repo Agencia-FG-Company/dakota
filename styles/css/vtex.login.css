@@ -233,7 +233,7 @@
     all: unset !important;
 }
 :global(.dakota-auth-utils-3-x-customLoginModal) .content--loginOptions {
-    padding-top: 0;
+    padding: 0;
 }
 
 :global(.dakota-auth-utils-3-x-customLoginModal) .contentFormVisible {

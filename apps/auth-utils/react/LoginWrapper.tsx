@@ -14,7 +14,7 @@ const LoginWrapper = ({ children }: LoginWrapperProps) => {
   const [modalVisibility, setModalVisibility] = useState(false)
 
   const handleModalVisibility = () => setModalVisibility((prev) => !prev)
-
+  console.log('girl',children)
   return (
     <div className={handles.customLoginWrapper}>
       <Greeting handleModalVisibility={handleModalVisibility} />

@@ -1,5 +1,5 @@
 {
-     "custom-login-wrapper":{
+     "custom-login-wrapper#header":{
     "children":["login-provider#access-key","login-content#custom-login"]
   },
     

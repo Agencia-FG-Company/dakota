@@ -48,7 +48,8 @@
       "search-bar",
       "flex-layout.col#spacer",
       // "login",
-      "custom-login-wrapper",
+      "custom-login-wrapper#header",
+      // "login-content#custom-login",
       "wishlist-header",
       "minicart.v2" 
       //"flex-layout.col#minicart-custom"
