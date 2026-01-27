@@ -82,7 +82,8 @@
     "vtex.session-client": "1.x",
     "vtex.toggle-layout": "0.x",
     "dakota.specification-badge": "0.x",
-    "dakota.backend-io": "0.x"
+    "dakota.backend-io": "0.x",
+    "dakota.auth-utils": "3.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

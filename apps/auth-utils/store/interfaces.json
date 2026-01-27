@@ -1,0 +1,45 @@
+{
+  "greeting": {
+    "component": "Greeting"
+  },
+  "logout": {
+    "component": "Logout",
+    "composition": "children"
+  },
+  "is-user-logged": {
+    "component": "IsUserLogged",
+    "composition": "children"
+  },
+  "login-link": {
+    "component": "LoginLink",
+    "composition": "children"
+  },
+
+  "login-provider": {
+    "component": "LoginProvider",
+    "composition": "children"
+  },
+  "login-form-element": {
+    "component": "LoginFormElement",
+    "composition": "children"
+  },
+  "login-form": {
+    "component": "LoginForm",
+    "composition": "children"
+  },
+  "login-input": {
+    "component": "LoginInput",
+    "composition": "children"
+  },
+  "login-button": {
+    "component": "LoginButton",
+    "composition": "children"
+  },
+  "login-with-timer":{
+    "component": "LoginWithTimer"
+  },
+  "custom-login-wrapper":{
+    "component": "LoginWrapper",
+    "composition": "children"
+  }
+}

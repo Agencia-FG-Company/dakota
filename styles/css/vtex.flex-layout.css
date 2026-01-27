@@ -1648,6 +1648,10 @@
         padding: 20px;
     }
 
+}
 
-
+.flexRowContent--custom-login-block{
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
 }

@@ -1,0 +1,8 @@
+{
+  "extends": "vtex-react/io",
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "off",
+    "max-params": "off"
+  }
+}

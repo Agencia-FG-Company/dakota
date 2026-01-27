@@ -1,0 +1,20 @@
+{
+  "vendor": "dakota",
+  "name": "auth-utils",
+  "version": "3.7.5",
+  "title": "Auth Utils",
+  "description": "Auth Utils",
+  "defaultLocale": "pt-BR",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.store-graphql": "2.x",
+    "vtex.native-types": "0.x",
+    "vtex.session-client": "1.x",
+    "vtex.css-handles": "1.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
