@@ -51,7 +51,7 @@
 
 @media(max-width: 768px) {
     :global(.render-route-store-product) :global(.vtex-store-components-3-x-imageElementLink--whats-flutuante) {
-        bottom: 70px;
+        bottom: 70px !important;
         padding-bottom: 0px;
     }
 }
