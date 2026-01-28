@@ -1,0 +1,143 @@
+.loginWithAccessKeyButton--accessKey {
+  all: unset;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: "Inter";
+  letter-spacing: 0.6px;
+  height: 40px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-inline: 10px;
+  background-color: #222;
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.customLoginModal {
+  max-width: 350px;
+  min-width: 350px;
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 75px;
+  left: -100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.formElement--accessKey {
+  width: 100%;
+}
+
+.loginWithAccessKeyContainer--accessKey {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputElement--accessKey {
+  padding: 5px;
+  width: 100%;
+  margin-block: 0.5rem;
+}
+
+.loginWithAccessKeyBackButton--accessKey {
+  all: unset;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  color: #db3d68;
+  text-transform: uppercase;
+}
+
+.buttonElement--accessKey {
+  all: unset;
+  background-color: #db3d68;
+  padding: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 700;
+  box-sizing: border-box;
+  height: 35px;
+  cursor: pointer;
+}
+
+.formContainer--accessKey {
+  padding: 0.75rem;
+  padding-bottom: 0;
+  padding-inline: 0;
+  max-width: 320px;
+  margin-inline: auto;
+}
+
+.loginAccessKeyWithTimerInformative,.label--accessKey , .loginWithAccessKeyText { 
+  color: #222;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.greeting {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #222222;
+    text-transform: none;
+    font-family: 'Larsseit Medium';
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.greeting::before {
+      content: '';
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url('assets/img/user-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.loginAccessKeyWithTimerTextClock{
+    text-align: center;
+    font-weight: 700;
+    font-family: "Inter";
+    font-size: 1.03rem;
+}
+
+.customLoginWrapper{
+  position: relative;
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.LoggedModalWrapper{
+  background-color: #fff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  bottom: -100px;
+}
+
+.loggedModalOption{
+  all: unset;
+  color: #db3d68;
+  font-weight: 500;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding-block: 8px;
+  display: block;
+
+}
+

@@ -125,5 +125,8 @@
   },
   "handle-banner-filter": {
     "component": "HandleBannerFilter"
+  },
+  "rastreio-my-account": {
+    "component": "RastreioMyAccount"
   }
 }

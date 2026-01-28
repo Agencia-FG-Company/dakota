@@ -47,7 +47,9 @@
       "flex-layout.col#spacer",
       "search-bar",
       "flex-layout.col#spacer",
-      "login",
+      // "login",
+      "custom-login-wrapper#header",
+      // "login-content#custom-login",
       "wishlist-header",
       "minicart.v2" 
       //"flex-layout.col#minicart-custom"
