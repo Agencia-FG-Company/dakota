@@ -1,7 +1,7 @@
 {
   "vendor": "dakota",
   "name": "auth-utils",
-  "version": "3.7.5",
+  "version": "3.7.6",
   "title": "Auth Utils",
   "description": "Auth Utils",
   "defaultLocale": "pt-BR",

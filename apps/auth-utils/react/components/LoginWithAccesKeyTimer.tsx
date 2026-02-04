@@ -88,7 +88,7 @@ const LoginWithAccesKeyTimer = ({
              <p className={handles.loginAccessKeyWithTimerInformative}>
               Após o termino do tempo, o código expira sendo necessário uma nova solciitação.
              </p>
-            <p className={handles.loginAccessKeyWithTimerInformative}>* Verifique sua caixa de ENTRADA e SPAM para o código de acesso.</p>
+            <p className={handles.loginAccessKeyWithTimerInformative}>* Verifique sua caixa de ENTRADA e SPAM para localizar o código de acesso.</p>
             <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center',width: '100%'}}>
             <button className={handles.loginWithAccessKeyBackButton} onClick={() => handleStep()}>Voltar</button>
             <LoginButton
