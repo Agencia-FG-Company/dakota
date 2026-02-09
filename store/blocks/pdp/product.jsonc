@@ -40,7 +40,7 @@
   },
   "flex-layout.col#review-product": {
     "children": [
-      //"product-reviews.ratrustvox"
+      "product-reviews.ratrustvox"
       //"yv-product-reviews",
       //"product-questions-and-answers"
     ]

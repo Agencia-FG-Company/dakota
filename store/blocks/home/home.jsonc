@@ -14,7 +14,8 @@
       "flex-layout.row#shelf-02",
       "flex-layout.row#blog",
       //"flex-layout.row#shelf-03",
-      "toggle-layout#banner-reclame-aqui"
+      "toggle-layout#banner-reclame-aqui",
+      "colt-ratrustvox"
       //"yv-testimonials"
       // "flex-layout.row#texto-home"
     ]
