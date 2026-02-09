@@ -82,12 +82,12 @@
     "vtex.session-client": "1.x",
     "vtex.toggle-layout": "0.x",
     "dakota.specification-badge": "0.x",
-    "dakota.backend-io": "0.x"
+    "dakota.backend-io": "0.x",
+    "dakota.ra-reviews": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.mega-menu": "2.x",
-    "yourviews.yourviewsreviews": "1.x"
+    "vtex.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
