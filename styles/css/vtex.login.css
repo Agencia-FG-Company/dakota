@@ -280,3 +280,17 @@
     text-align: center;
     margin-bottom: 20px;    
 }
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(a.vtex-reviews-and-ratings-3-x-loginLink) {
+    color: #db3d68;
+    font-weight: 600;
+    text-decoration: none;    
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(a.vtex-reviews-and-ratings-3-x-loginLink):hover {
+    text-decoration: underline;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-informacoes) :global(.trustvox-rating) :global(.trustvox-widget-rating span.rating-click-here) {
+    color: #db3d68;     
+}
