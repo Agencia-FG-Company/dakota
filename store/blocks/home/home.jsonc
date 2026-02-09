@@ -14,8 +14,8 @@
       "flex-layout.row#shelf-02",
       "flex-layout.row#blog",
       //"flex-layout.row#shelf-03",
-      "toggle-layout#banner-reclame-aqui",
-      "yv-testimonials"
+      "toggle-layout#banner-reclame-aqui"
+      //"yv-testimonials"
       // "flex-layout.row#texto-home"
     ]
   }

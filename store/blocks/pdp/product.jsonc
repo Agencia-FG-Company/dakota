@@ -40,8 +40,9 @@
   },
   "flex-layout.col#review-product": {
     "children": [
-      "yv-product-reviews",
-      "product-questions-and-answers"
+      //"product-reviews.ratrustvox"
+      //"yv-product-reviews",
+      //"product-questions-and-answers"
     ]
   },
   "flex-layout.row#product-breadcrumbs": {
@@ -245,6 +246,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-rating-summary.ratrustvox",      
       "product-list-price#summary",
       "product-selling-price#summary",
       "product-installments#summary",
