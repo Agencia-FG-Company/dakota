@@ -72,9 +72,9 @@
     }
   },
 
-  "store.product-review-form": {
-    "blocks": ["product-review-form"]
-  },
+  //"store.product-review-form": {
+ //  "blocks": ["product-review-form"]
+  //},
 
   "store.not-found#product": {
     "blocks": ["rich-text#not-found"]

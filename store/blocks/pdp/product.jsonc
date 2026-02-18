@@ -12,7 +12,7 @@
       "flex-layout.row#title-description",
       "flex-layout.row#description",
       "product-specifications-badges",
-      "flex-layout.row#review-product",
+      "product-reviews.ratrustvox",
       "flex-layout.row#shelf-pdp"
     ]
   },
@@ -39,8 +39,7 @@
     ]
   },
   "flex-layout.col#review-product": {
-    "children": [
-      "product-reviews.ratrustvox"
+    "children": [      
       //"yv-product-reviews",
       //"product-questions-and-answers"
     ]
