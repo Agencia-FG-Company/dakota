@@ -30,8 +30,7 @@
             "defer":"true"
           }
         }
-      ],
-      "initTrustvox": true
+      ]
     }
   },
   "flex-layout.row#header-main-desktop": {

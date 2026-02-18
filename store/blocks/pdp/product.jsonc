@@ -7,7 +7,7 @@
       "condition-layout.product#flutuante-mobile",
       "flex-layout.row#product-breadcrumbs",
       "condition-layout.product#availability",
-      "__fold__",
+      //"__fold__",
       "shelf.relatedProducts",
       "flex-layout.row#title-description",
       "flex-layout.row#description",

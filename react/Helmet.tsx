@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Helmet as HelmetVtex } from 'vtex.render-runtime'
 
 type Tag = {
@@ -9,47 +9,11 @@ type Tag = {
 
 export interface HelmetProps {
   tags: Tag[]
-  initTrustvox?: boolean
 }
 
-function Helmet({ tags = [], initTrustvox = false }: HelmetProps) {
+function Helmet({ tags = [] }: HelmetProps) {
 
-  useEffect(() => {
-    if (!initTrustvox) return
-
-    // Tenta inicializar o Trustvox após um delay para garantir que as DIVs estão no DOM
-    const timer = setTimeout(() => {
-      const tryInitialize = () => {
-        if ((window as any)._trustvox_initializer) {
-          (window as any)._trustvox_initializer.initialize()
-          console.log('Trustvox inicializado com sucesso!')
-          return true
-        }
-        return false
-      }
-
-      // Primeira tentativa imediata
-      if (!tryInitialize()) {
-        // Se não estiver pronto, tenta a cada 100ms por até 10 segundos
-        const interval = setInterval(() => {
-          if (tryInitialize()) {
-            clearInterval(interval)
-          }
-        }, 100)
-
-        // Limpa o intervalo após 10 segundos
-        const timeoutId = setTimeout(() => clearInterval(interval), 10000)
-        
-        return () => {
-          clearInterval(interval)
-          clearTimeout(timeoutId)
-        }
-      }
-    }, 500)
-
-    return () => clearTimeout(timer)
-  }, [initTrustvox])
-
+   
   const tagsElementList = tags.map((tag, index) => {
     if (tag.type === 'script') {
       return (
@@ -77,6 +41,7 @@ function Helmet({ tags = [], initTrustvox = false }: HelmetProps) {
 
     return <meta key={`${tag.type}-${index}`} {...tag.tagProps} />
   })
+
 
   return <HelmetVtex>{tagsElementList}</HelmetVtex>
 }
