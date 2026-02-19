@@ -1,36 +1,58 @@
 .container--diferencial {
     justify-content: center;
+    position: relative;
 }
-.paragraph--diferencial {
+.wrapper--diferencial {
+    height: 100%;
     display: flex;
     align-items: center;
+    position: relative;
+}
+.paragraph--diferencial {
     color: #fff;
-    font-size: 16px;
-    gap: 4px;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+.paragraph--diferencial::before {
+    position: absolute;
+    left: -35px;
+    top: 25px;
 }
 .paragraph--diferencial1::before {
     content: url('assets/svg/Package-dif.svg');
     width: 24px;
     height: 24px;
-    margin-right: 10px;
 }
 .paragraph--diferencial2::before {
     content: url('assets/svg/Diamond-dif.svg');
     width: 24px;
     height: 24px;
-    margin-right: 10px;
 }
 .paragraph--diferencial3::before {
     content: url('assets/svg/CreditCard-dif.svg');
     width: 24px;
     height: 24px;
-    margin-right: 10px;
 }
 .paragraph--diferencial4::before {
     content: url('assets/svg/Swap-dif.svg');
     width: 24px;
     height: 24px;
-    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .container--diferencial {
+        max-width: 77%;
+        margin: 0 auto;
+    }
+    .paragraph--diferencial::before {
+        left: -30px;
+        top: 15px;
+    }
+    .paragraph--diferencial1::before {
+        top: 25px;
+        left: -20px;
+    }
 }
 
 .link {
