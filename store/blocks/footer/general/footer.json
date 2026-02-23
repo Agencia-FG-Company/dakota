@@ -106,7 +106,7 @@
     },
     "children": [
       "rich-text#footer-seguranca",
-      "image#loja-confiavel"
+      "flex-layout.col#footer-seguranca-trustvox"
     ]
   },
   "rich-text#footer-seguranca": {
@@ -115,18 +115,14 @@
       "blockClass": "footer-seguranca"
     }
   },
-  "image#loja-confiavel": {
+  "flex-layout.col#footer-seguranca-trustvox": {
     "props": {
-      "blockClass": "footer-seguranca",
-      "src": "assets/img/loja-confiavel.png",
-      "maxHeight": 52,
-      "maxWidth": 142,
-      "link": {
-        "url": "https://www.lojaconfiavel.com/dakota",
-        "newTab": true
-      }
-    }
-  },
+      "blockClass": "certificate-ratrustvox" 
+    },
+    "children": [
+      "certificate-ratrustvox"
+    ]
+  },  
   "flex-layout.col#footer-seguranca-00": {
     "props": {
       "blockClass": "seguranca" 
