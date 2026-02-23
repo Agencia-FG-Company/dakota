@@ -69,8 +69,7 @@
       "flex-layout.col#footer-seguranca",
       "flex-layout.col#footer-seguranca-00",
       "flex-layout.col#footer-seguranca-01",
-      "flex-layout.col#footer-seguranca-02",
-      "flex-layout.col#footer-seguranca-03"
+      "flex-layout.col#footer-seguranca-02"
     ],
     "props": {
       "blockClass": "footer-seguranca",
@@ -87,8 +86,7 @@
       "flex-layout.col#footer-seguranca",
       "flex-layout.col#footer-seguranca-00",
       "flex-layout.col#footer-seguranca-01",
-      "flex-layout.col#footer-seguranca-02",
-      "flex-layout.col#footer-seguranca-03"
+      "flex-layout.col#footer-seguranca-02"
     ],
     "props": {
       "blockClass": ["footer-seguranca", "mobile"], 
@@ -361,13 +359,5 @@
       "textPosition": "CENTER"
     },
     "title": "Título Newsletter" 
-  },
-  "flex-layout.col#footer-seguranca-03": {
-    "props": {
-      "blockClass": "certificate-ratrustvox" 
-    },
-    "children": [
-      "certificate-ratrustvox"
-    ]
-  }
+  }  
 }
