@@ -392,7 +392,7 @@
     },
     "children": [
       "flex-layout.col#buy-button-whislist-left",
-      "add-to-cart-button#checkout"
+       "condition-layout-buy-together-available#btg"
     ]
   },
   "flex-layout.row#product-name": {
@@ -454,8 +454,24 @@
       "blockClass": "buy-button"
     },
     "children": [
-      "add-to-cart-button#checkout"
+       "condition-layout-buy-together-available#btg"
     ]
+  },
+    "condition-layout-buy-together-available#btg":{
+    "title":"Compre junto condicional.",
+    "props":{
+      "clusterId":"184",
+      "Then":"add-to-cart-button#checkout",
+      "Else": "add-to-cart-button#buy-directly"
+    }
+  },
+  "add-to-cart-button#buy-directly": {
+    "props": {
+      "blockClass":"checkout",
+      "isOneClickBuy": true,
+      "customOneClickBuyLink": "/checkout/#/cart",
+      "text": "Comprar"
+    }
   },
   "flex-layout.row#buy-button-whislist": {
     "title": "Botões de compra",

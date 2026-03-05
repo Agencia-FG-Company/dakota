@@ -128,5 +128,8 @@
   },
   "rastreio-my-account": {
     "component": "RastreioMyAccount"
+  },
+    "condition-layout-buy-together-available": {
+    "component": "ConditionLayoutClusterBTG"
   }
 }

@@ -1,0 +1,14 @@
+query ProductsByCluster($selectedFacets: [SelectedFacetInput], $from: Int, $to: Int) {
+  productSearch(selectedFacets: $selectedFacets, from: $from, to: $to)
+    @context(provider: "vtex.search-graphql") {
+    products {
+      items {
+        sellers {
+          commertialOffer {
+            AvailableQuantity
+          }
+        }
+      }
+    }
+  }
+}
