@@ -1562,3 +1562,16 @@
             }
         }
 }
+
+.wrapper--subtitle-politica-geral-devolucao {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+}
+.wrapper--paragraph-politica-geral-devolucao {
+    font-style: italic;
+    margin: 20px 0;
+    clear: both;
+    font-size: .875rem;
+    color: #555;
+}

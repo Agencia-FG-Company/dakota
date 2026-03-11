@@ -66,55 +66,26 @@
     "flex-layout.col#conteudo-troca-devolucao": {
       "title": "Conteudo",
       "children": [
-        "disclosure-layout-group#troca-devolucao"
+        "rich-text#troca-devolucao-01",
+        "rich-text#answer-troca-devolucao-01"
       ],
       "props": {
         "blockClass": ["conteudo-institucional"]
       }
     },
   
-    "disclosure-layout-group#troca-devolucao": {
-      "children": [
-        "disclosure-layout#troca-devolucao-01"
-      ]
-    },
-  
     // PERGUNTA 01
   
-    "disclosure-layout#troca-devolucao-01": {
-      "props": {
-        "animated": true
-      },
-      "children": [
-        "disclosure-trigger#troca-devolucao-01",
-        "disclosure-content#troca-devolucao-01"
-      ]
-    },
-    "disclosure-trigger#troca-devolucao-01": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": [
-        "disclosure-state-indicator",
-        "rich-text#troca-devolucao-01"
-      ]
-    },
-    "disclosure-content#troca-devolucao-01": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer-troca-devolucao-01"]
-    },
     "rich-text#troca-devolucao-01": {
       "props": {  
-        "blockClass": "margin-0",
+        "blockClass": ["margin-0", "subtitle-politica-geral-devolucao"],
         "text": "Política geral"
       } 
     },
     "rich-text#answer-troca-devolucao-01": {
       "props": {
-        "text": "De acordo com o decreto federal 7.962/13 e com o Código de Defesa do Consumidor, o Usuário tem até 07 (sete) dias corridos após o recebimento do produto para solicitar o cancelamento da compra, exercendo o seu direito de arrependimento. \n \n A loja online não realiza trocas e devoluções de produtos adquiridos em lojas físicas ou representantes multimarcas e vice-versa. \n \n Para realizar a devolução ou troca é necessário preencher o formulário disponível nos sites de Universo Dakota, com as seguintes informações: nome completo, e-mail, CPF, telefone, número do pedido, produto a ser devolvido (modelo, cor, número), selecionar o motivo, selecionar a opção de restituição (cupom desconto, estorno, reembolso, troca por outro número) e explicar o motivo para a devolução ou troca. \n \n O Universo Dakota entrará em contato com o Usuário em até 03 (três) dias úteis para informar o código de postagem do(s) produto(s), orientando os demais procedimentos a serem adotados. \n \n Após o recebimento do código de postagem, o Usuário deverá enviar o(s) produto(s) pelos Correios ou pelo Centro de Distribuição para o endereço fornecido por Universo Dakota, sem custo adicional. \n No segundo pedido para troca da mesma compra por outro modelo, cor ou numeração será cobrado o frete do Usuário. \n \n Para que o(s) produto(s) seja(m) trocado(s) ou devolvido(s), ainda que no exercício do direito de arrependimento do Usuário, é preciso cumprir as seguintes exigências: \n Não poderá haver qualquer indício de uso do(s) produto(s); \n O(s) produto(s) deverá(ão) ser enviados ao Universo Dakota acompanhado de Nota Fiscal e dentro da caixa original. \n \n  O Universo Dakota reserva-se o direito de não atender o pedido de devolução ou troca de qualquer produto que apresente indícios de uso. \n \n Assim que for confirmado o recebimento do produto, o Universo Dakota analisará o cumprimento dos requisitos de troca ou devolução constantes nestas Condições Gerais. \n Se tudo estiver de acordo com o disposto nestas Condições Gerais, o novo produto será postado para envio pelos Correios em até dez (10) dias úteis do recebimento por Universo Dakota ou será estornado o seu valor no prazo disposto na Cláusula 12 dessas Condições Gerais, conforme a escolha do Usuário posta no formulário. \n \n Em caso de pedido de troca ou devolução do produto por motivos de insatisfação, tamanho, cor, ou outra divergência, o Universo Dakota fará uma análise de qualidade. Caso haja indícios de uso o produto será devolvido ao Usuário sem aviso prévio, que será obrigado a recebê-lo."
+        "text": "De acordo com o decreto federal 7.962/13 e com o Código de Defesa do Consumidor, o Usuário tem até 07 (sete) dias corridos após o recebimento do produto para solicitar o cancelamento da compra, exercendo o seu direito de arrependimento. \n \n A loja online não realiza trocas e devoluções de produtos adquiridos em lojas físicas ou representantes multimarcas e vice-versa. \n \n Para realizar a devolução ou troca é necessário preencher o formulário disponível nos sites de Universo Dakota, com as seguintes informações: nome completo, e-mail, CPF, telefone, número do pedido, produto a ser devolvido (modelo, cor, número), selecionar o motivo, selecionar a opção de restituição (cupom desconto, estorno, reembolso, troca por outro número) e explicar o motivo para a devolução ou troca. \n \n O Universo Dakota entrará em contato com o Usuário em até 03 (três) dias úteis para informar o código de postagem do(s) produto(s), orientando os demais procedimentos a serem adotados. \n \n Após o recebimento do código de postagem, o Usuário deverá enviar o(s) produto(s) pelos Correios ou pelo Centro de Distribuição para o endereço fornecido por Universo Dakota, sem custo adicional. \n No segundo pedido para troca da mesma compra por outro modelo, cor ou numeração será cobrado o frete do Usuário. \n \n Para que o(s) produto(s) seja(m) trocado(s) ou devolvido(s), ainda que no exercício do direito de arrependimento do Usuário, é preciso cumprir as seguintes exigências: \n Não poderá haver qualquer indício de uso do(s) produto(s); \n O(s) produto(s) deverá(ão) ser enviados ao Universo Dakota acompanhado de Nota Fiscal e dentro da caixa original. \n \n  O Universo Dakota reserva-se o direito de não atender o pedido de devolução ou troca de qualquer produto que apresente indícios de uso. \n \n Assim que for confirmado o recebimento do produto, o Universo Dakota analisará o cumprimento dos requisitos de troca ou devolução constantes nestas Condições Gerais. \n Se tudo estiver de acordo com o disposto nestas Condições Gerais, o novo produto será postado para envio pelos Correios em até dez (10) dias úteis do recebimento por Universo Dakota ou será estornado o seu valor no prazo disposto na Cláusula 12 dessas Condições Gerais, conforme a escolha do Usuário posta no formulário. \n \n Em caso de pedido de troca ou devolução do produto por motivos de insatisfação, tamanho, cor, ou outra divergência, o Universo Dakota fará uma análise de qualidade. Caso haja indícios de uso o produto será devolvido ao Usuário sem aviso prévio, que será obrigado a recebê-lo.",
+        "blockClass": ["paragraph-politica-geral-devolucao"]
       }
     }
   }
