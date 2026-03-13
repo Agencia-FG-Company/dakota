@@ -22,3 +22,19 @@
 :global(.vtex-my-orders-app-3-x-cancelBtn) {
     display: none !important;
 }
+
+
+:global(.ts-customer-questions) {
+    display: none !important;
+}
+
+:global(.ts-no-reviews) {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+}
+
+@media (max-width: 790px) {
+    :global(.ts-rating-component) {
+        width: 85% !important;
+    }
+}
